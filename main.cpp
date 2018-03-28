@@ -4,11 +4,13 @@ using namespace std;
 
 int main()
 {
-    int celsuis=100 ;
-    int fahrenheit=0 ;
+    int x ;
+    cin>>x ;
+    if (x%2==0)
+    {
+        cout<<"num is even " ;
 
-    for (fahrenheit=(9*celsuis)/5+32;)
-    cout<< fahrenheit=celsuis;
-
+    }
+    else cout <<"num is odd " ;
     return 0;
 }
