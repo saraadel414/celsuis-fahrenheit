@@ -1,16 +1,17 @@
 #include <iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
 int main()
 {
-    int x ;
-    cin>>x ;
-    if (x%2==0)
-    {
-        cout<<"num is even " ;
+    double side1 , side2 ;
+    cin>>side1>>side2;
+    double side3=(side1*side1)+(side2*side2) ;
+     side3 =sqrt(side3) ;
 
-    }
-    else cout <<"num is odd " ;
+    cout <<side3 ;
+
     return 0;
+
 }
